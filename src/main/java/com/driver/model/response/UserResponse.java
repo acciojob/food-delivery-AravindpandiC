@@ -1,5 +1,12 @@
 package com.driver.model.response;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserResponse {
 
 	private String userId;
